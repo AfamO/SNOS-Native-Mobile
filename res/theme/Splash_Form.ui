@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Splash_Form" cloudDestinationProperty="Splash_Form" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="Security Network Operation System " >
+  <component type="Container" name="BottomContainer" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="South" />
+    <component type="Container" name="InBottomContainer" cloudDestinationProperty="Container3" layout="GridLayout" gridLayoutRows="1" gridLayoutColumns="4" >
+      <component type="Button" name="HomeBut" cloudDestinationProperty="Button" uiid="ToolbarButton" flatten="false" text="" icon="home_pix.png" >
+      </component>
+      <component type="Button" name="AboutBut" cloudDestinationProperty="Button1" uiid="ToolbarButton" flatten="false" text="" icon="about_pix.jpg" >
+      </component>
+      <component type="Button" name="EmeBut" cloudDestinationProperty="Button2" uiid="ToolbarButton" flatten="false" text="" icon="contact_pix.png" >
+      </component>
+      <component type="Button" name="SetBut" cloudDestinationProperty="Button3" uiid="ToolbarButton" flatten="false" text="" icon="setting_pix.png" gap="2" >
+      </component>
+    </component>
+  </component>
+  <component type="Container" name="ContentContainer" cloudDestinationProperty="Container1" scrollableY="true" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+    <layoutConstraint value="Center" />
+    <component type="Container" name="InnerContainer" cloudDestinationProperty="InnerContainer" layout="BorderLayout" borderLayoutAbsoluteCenter="true" >
+      <layoutConstraint value="Center" />
+      <component type="Container" name="ButtonContainer" cloudDestinationProperty="ButtonContainer" layout="GridLayout" gridLayoutRows="3" gridLayoutColumns="1" >
+        <layoutConstraint value="Center" />
+        <component type="Button" name="HomeRegBut" cloudDestinationProperty="HomeRegBut" uiid="ButtonHome" focusable="true" enabled="true" rtl="false" scrollVisible="true" text="" icon="reg1.png" textPosition="3" >
+        </component>
+        <component type="Button" name="HomeLoginBut" cloudDestinationProperty="HomeLoginBut" uiid="ButtonHome" text="" icon="slogin.png" >
+        </component>
+        <component type="Button" name="HomeFutBut" cloudDestinationProperty="HomeFutBut" uiid="ButtonMain" text="" icon="flogin.png" >
+        </component>
+      </component>
+    </component>
+    <component type="Container" name="PixContainer" cloudDestinationProperty="PixContainer" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+      <layoutConstraint value="South" />
+      <component type="Label" name="logLab" cloudDestinationProperty="Label1" text="" icon="home_pix2.png" >
+      </component>
+    </component>
+  </component>
+  <component type="Container" name="TopContainer" cloudDestinationProperty="TopContainer" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="North" />
+    <component type="Label" name="TopSpaceLab" cloudDestinationProperty="TopSpaceLab" uiid="LabelFirst" text="" >
+    </component>
+    <component type="Label" name="LogLab" cloudDestinationProperty="Label1" uiid="LabelTitle" text="" icon="home_Nos_title3.png" >
+    </component>
+  </component>
+<command name="Exit" id="91" action="$Exit" backCommand="false" /><command name="About SNOS" id="90" action="About_Form" backCommand="false" /><command name="Emergency Contacts" id="89" action="Emergency_Contacts_Inform_Form" backCommand="false" /></component>

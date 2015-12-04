@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Alert_Form" cloudDestinationProperty="Alert_Form" title="Security Network Operation System " >
+<command name="Logout" id="55" action="" backCommand="false" /><command name="About SNOS" id="52" action="About_Form" backCommand="false" /><command name="Emergency Contacts" id="53" action="Emergency_Contacts_Inform_Form" backCommand="false" /><command name="Change Login Details" id="84" action="Edit_Login" backCommand="false" /><command name="Contacts" id="82" action="Edit_Contact_Form" backCommand="false" /><command name="Device" id="83" action="Edit_Device_Form" backCommand="false" /><command name="Profile" id="54" action="Splash_Form" backCommand="false" /></component>

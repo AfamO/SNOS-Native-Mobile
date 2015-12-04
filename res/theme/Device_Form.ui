@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Device_Form" cloudDestinationProperty="Device_Form" scrollableY="false" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="Security Network Operation System " >
+  <component type="Container" name="EditTitleContainer" cloudDestinationProperty="TitleContainer" scrollableY="true" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+    <layoutConstraint value="North" />
+    <component type="Label" name="Label" cloudDestinationProperty="Label" text="" icon="title_nos_pix6.png" >
+    </component>
+  </component>
+  <component type="Container" name="ContentPan" cloudDestinationProperty="ContentPan" nextFocusDown="ContentPan" nextFocusLeft="ContentPan" focusable="false" rtl="true" scrollableY="true" layout="BorderLayout" borderLayoutAbsoluteCenter="true" >
+    <layoutConstraint value="Center" />
+    <component type="Container" name="InnerContentContainer" cloudDestinationProperty="InnerContentContainer" layout="BoxLayout" boxLayoutAxis="Y" >
+      <layoutConstraint value="Center" />
+      <component type="Container" name="StatusContainer" cloudDestinationProperty="Container1" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+        <component type="Label" name="StatusLab" cloudDestinationProperty="Label1" uiid="LabelTitle" text=" Registration Stage: 2 of 3" >
+        </component>
+      </component>
+      <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Label" name="NameLab" cloudDestinationProperty="NameLab" uiid="LabelFirst" text="Device Name" >
+        </component>
+        <component type="TextField" name="DevNameTF" cloudBoundProperty="text" cloudDestinationProperty="TextField" text="" hint="Device Name" >
+        </component>
+      </component>
+      <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Label" name="DesLab" cloudDestinationProperty="Label1" text="Description" >
+        </component>
+        <component type="TextArea" name="DesTA" cloudBoundProperty="text" cloudDestinationProperty="DesTA" text="" hint="Description" >
+        </component>
+      </component>
+      <component type="Container" name="Container2" cloudDestinationProperty="Container2" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Label" name="AddLab" cloudDestinationProperty="Label2" text="Address" >
+        </component>
+        <component type="TextArea" name="AddTA2" cloudBoundProperty="text" cloudDestinationProperty="AddTA" text="" hint="Address" >
+        </component>
+      </component>
+      <component type="Container" name="Container3" cloudDestinationProperty="Container3" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Label" name="BuildTypeLab" cloudDestinationProperty="BuildTypeLab" text="Property Type " >
+        </component>
+        <component type="TextField" name="BuildTypeTF" cloudBoundProperty="text" cloudDestinationProperty="BuildTypeTF" text="" hint="Building Type If any" >
+        </component>
+      </component>
+      <component type="Container" name="Container4" cloudDestinationProperty="Container4" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Label" name="LocLab" cloudDestinationProperty="LocLab" text="Location(of Property)" >
+        </component>
+        <component type="TextField" name="LocTF" cloudBoundProperty="text" cloudDestinationProperty="LocTF" text="" hint="Location of property" >
+        </component>
+      </component>
+      <component type="Container" name="Container5" cloudDestinationProperty="Container5" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Label" name="StaLab" cloudDestinationProperty="StaLab" text="State" >
+        </component>
+        <component type="ComboBox" name="StaCB" cloudDestinationProperty="StaCB" >
+          <stringItem value="Choose-one" />
+          <stringItem value="Abia State" />
+          <stringItem value="Anambra State" />
+          <stringItem value="Akwa Ibom State " />
+          <stringItem value="Benue State" />
+          <stringItem value="Borno State" />
+          <stringItem value="Bauchi State" />
+          <stringItem value="Bayelsa State " />
+          <stringItem value="Ebonyi State" />
+          <stringItem value="Ekiti State" />
+          <stringItem value="Edo State" />
+          <stringItem value="Enugu State" />
+          <stringItem value="Imo State" />
+          <stringItem value="Rivers State" />
+          <stringItem value="Cross River State" />
+          <stringItem value="Delta State" />
+          <stringItem value="Kano State" />
+          <stringItem value="Kaduna State" />
+          <stringItem value="Kebbi State" />
+          <stringItem value="Kogi State" />
+          <stringItem value="Kwara State" />
+          <stringItem value="Katsina State" />
+          <stringItem value="Gombe State" />
+          <stringItem value="Jigawa State" />
+          <stringItem value="Nasarawa State" />
+          <stringItem value="Niger State" />
+          <stringItem value="Lagos State" />
+          <stringItem value="Osun State" />
+          <stringItem value="Ondo State" />
+          <stringItem value="Ogun State" />
+          <stringItem value="Oyo State " />
+          <stringItem value="Sokoto State" />
+          <stringItem value="Plateau State" />
+          <stringItem value="Taraba State" />
+          <stringItem value="Yobe State" />
+          <stringItem value="Zamfara State" />
+          <stringItem value="FCT" />
+        </component>
+      </component>
+      <component type="Container" name="Container6" cloudDestinationProperty="Container6" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Label" name="LgaLab" cloudDestinationProperty="LgaLab" text="LGA" >
+        </component>
+        <component type="ComboBox" name="LgaCB" cloudDestinationProperty="LgaCB" >
+          <stringItem value="Choose-One" />
+          <stringItem value="Awka North" />
+          <stringItem value="Ikeja" />
+          <stringItem value="Ayamelum" />
+        </component>
+      </component>
+      <component type="Container" name="Container7" cloudDestinationProperty="Container7" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="SpanLabel" name="MoreContactSpanLab" cloudDestinationProperty="MoreContactSpanLab" >
+          <custom name="text" type="java.lang.String" value="Do you wish to register additional Device?" />
+        </component>
+        <component type="ComboBox" name="DeviceOnOffSwitch" cloudDestinationProperty="ComboBox" >
+          <stringItem value="Select" />
+          <stringItem value="no" />
+          <stringItem value="yes" />
+        </component>
+      </component>
+      <component type="Container" name="Container8" cloudDestinationProperty="Container8" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Label" name="SpaceLab" cloudDestinationProperty="SpaceLab" text="" >
+        </component>
+        <component type="Button" name="DevBut" cloudDestinationProperty="DevBut" text="Next" >
+        </component>
+      </component>
+    </component>
+  </component>
+  <component type="Container" name="BottomContainer1" cloudDestinationProperty="BottomContainer" uiid="Container" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="South" />
+    <component type="Container" name="InBottomContainer" cloudDestinationProperty="InBottomContainer" layout="GridLayout" gridLayoutRows="1" gridLayoutColumns="4" >
+      <component type="Button" name="PSHomeBut" cloudDestinationProperty="Button" uiid="ToolbarButton" flatten="false" text="" icon="home_pix.png" >
+      </component>
+      <component type="Button" name="PSAboutBut" cloudDestinationProperty="AboutBut" uiid="ToolbarButton" flatten="false" text="" icon="about_pix.jpg" >
+      </component>
+      <component type="Button" name="PSEmeBut" cloudDestinationProperty="EmeBut" uiid="ToolbarButton" flatten="false" text="" icon="contact_pix.png" >
+      </component>
+      <component type="Button" name="PSSetBut" cloudDestinationProperty="SetBut" uiid="ToolbarButton" flatten="false" text="" icon="setting_pix.png" >
+      </component>
+    </component>
+  </component>
+<command name="Settings" id="34" action="" backCommand="false" /><command name="About SNOS" id="33" action="About_Form" backCommand="false" /><command name="Emergency Contacts" id="32" action="Emergency_Contacts_Inform_Form" backCommand="false" /></component>

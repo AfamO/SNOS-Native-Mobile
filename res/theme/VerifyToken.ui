@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="VerifyToken" cloudDestinationProperty="VerifyToken" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="Security Network Operation System " >
+  <component type="Container" name="TitleContainer" cloudDestinationProperty="TitleContainer" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="North" />
+    <component type="Label" name="SpaceLab" cloudDestinationProperty="SpaceLab" text="" >
+    </component>
+    <component type="Container" name="ImageContainer" cloudDestinationProperty="ImageContainer" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+      <component type="Label" name="PixLab" cloudDestinationProperty="Label1" text="" icon="title_nos_pix6.png" >
+      </component>
+    </component>
+  </component>
+  <component type="Container" name="ContentContainer" cloudDestinationProperty="Container1" scrollableY="true" layout="BorderLayout" borderLayoutAbsoluteCenter="true" >
+    <layoutConstraint value="Center" />
+    <component type="Container" name="InnerContentContainer" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+      <layoutConstraint value="Center" />
+      <component type="Container" name="StatusContainer" cloudDestinationProperty="StatusContainer" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+        <component type="Label" name="StatusLab" cloudDestinationProperty="StatusLab" uiid="LabelTitle" text="Please type in the token sent to your email inbox" >
+        </component>
+      </component>
+      <component type="Label" name="TokenLab" cloudDestinationProperty="PassLab" uiid="LabelFirst" text="Token" >
+      </component>
+      <component type="TextField" name="TokenTF" cloudBoundProperty="text" cloudDestinationProperty="PassTF" text="" constraint="65536" hint="Token" >
+      </component>
+      <component type="Label" name="SpaceLab" cloudDestinationProperty="SpaceLab" text="" >
+      </component>
+      <component type="Button" name="PSLoginBut" cloudDestinationProperty="LoginBut" text="Verify Token" >
+      </component>
+    </component>
+  </component>
+  <component type="Container" name="BottomContainer" cloudDestinationProperty="BottomContainer" uiid="Container" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="South" />
+    <component type="Container" name="InBottomContainer" cloudDestinationProperty="InBottomContainer" focusable="false" snapToGrid="false" layout="GridLayout" gridLayoutRows="1" gridLayoutColumns="4" >
+      <component type="Button" name="PSHomeBut" cloudDestinationProperty="Button" uiid="ToolbarButton" flatten="false" text="" icon="home_pix.png" gap="2" >
+      </component>
+      <component type="Button" name="PSAboutBut" cloudDestinationProperty="AboutBut" uiid="ToolbarButton" flatten="false" text="" icon="about_pix.jpg" gap="2" >
+      </component>
+      <component type="Button" name="PSEmeBut" cloudDestinationProperty="EmeBut" uiid="ToolbarButton" flatten="false" text="" icon="contact_pix.png" >
+      </component>
+      <component type="Button" name="PSSetBut" cloudDestinationProperty="SetBut" uiid="ToolbarButton" flatten="false" text="" icon="setting_pix.png" >
+      </component>
+    </component>
+  </component>
+<command name="Emergency Contacts" id="86" action="Emergency_Contacts_Inform_Form" backCommand="false" /><command name="About SNOS" id="85" action="About_Form" backCommand="false" /></component>

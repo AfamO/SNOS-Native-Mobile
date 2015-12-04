@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Edit_Login" cloudDestinationProperty="Edit_Login" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="Security Network Operation System " >
+  <component type="Container" name="ContentContainer" cloudDestinationProperty="Container1" scrollableY="true" layout="BorderLayout" borderLayoutAbsoluteCenter="true" >
+    <layoutConstraint value="Center" />
+    <component type="Container" name="InnerContentContainer" cloudDestinationProperty="InnerContentContainer" layout="GridLayout" gridLayoutRows="5" gridLayoutColumns="1" >
+      <layoutConstraint value="Center" />
+      <component type="Container" name="StatusContainer" cloudDestinationProperty="StatusContainer" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+        <component type="Label" name="StatusLab" cloudDestinationProperty="StatusLab" text="" >
+        </component>
+      </component>
+      <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Label" name="OldPassLab" cloudDestinationProperty="OldPassLab" uiid="LabelFirst" text="Old Password" >
+        </component>
+        <component type="TextField" name="OldPassTF" cloudBoundProperty="text" cloudDestinationProperty="OldPassTF" text="" constraint="65536" hint="Old Password" >
+        </component>
+      </component>
+      <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Label" name="PassLab" cloudDestinationProperty="PassLab" text="New Password" >
+        </component>
+        <component type="TextField" name="PassTF" cloudBoundProperty="text" cloudDestinationProperty="PassTF" text="" constraint="65536" hint="New Password" >
+        </component>
+      </component>
+      <component type="Container" name="Container2" cloudDestinationProperty="Container2" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Label" name="VpassLab" cloudDestinationProperty="VpassLab" text="Verify Password" >
+        </component>
+        <component type="TextField" name="VpassTF" cloudBoundProperty="text" cloudDestinationProperty="VpassTF" uiid="TextField" text="" constraint="65536" hint="Verify Password" >
+        </component>
+      </component>
+      <component type="Container" name="Container3" cloudDestinationProperty="Container3" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Button" name="EditLoginBut" cloudDestinationProperty="LoginBut" text="Submit" >
+        </component>
+      </component>
+    </component>
+  </component>
+  <component type="Container" name="TitleContainer" cloudDestinationProperty="TitleContainer" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="North" />
+    <component type="Label" name="PixLab" cloudDestinationProperty="Label1" uiid="LabelTitle" text="" icon="title_nos_pix6.png" >
+    </component>
+    <component type="Container" name="InTitleContainer" cloudDestinationProperty="InTitleContainer" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+      <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="LabelTitle" text="Change Login Details" >
+      </component>
+    </component>
+  </component>
+  <component type="Container" name="BottomContainer" cloudDestinationProperty="BottomContainer" uiid="Container" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="South" />
+    <component type="Container" name="InBottomContainer" cloudDestinationProperty="InBottomContainer" layout="GridLayout" gridLayoutRows="1" gridLayoutColumns="4" >
+      <component type="Button" name="EditLoginHomeBut" cloudDestinationProperty="Button" uiid="ToolbarButton" flatten="false" text="" icon="home_pix.png" >
+      </component>
+      <component type="Button" name="EditLoginAboutBut" cloudDestinationProperty="AboutBut" uiid="ToolbarButton" flatten="false" text="" icon="about_pix.jpg" >
+      </component>
+      <component type="Button" name="EditLoginEmeBut" cloudDestinationProperty="EmeBut" uiid="ToolbarButton" flatten="false" text="" icon="contact_pix.png" >
+      </component>
+      <component type="Button" name="EditLoginSetBut" cloudDestinationProperty="SetBut" uiid="ToolbarButton" flatten="false" text="" icon="setting_pix.png" >
+      </component>
+    </component>
+  </component>
+<command name="Emergency Contacts" id="63" action="Emergency_Contacts_Inform_Form" backCommand="false" /><command name="About SNOS" id="62" action="About_Form" backCommand="false" /><command name="Device" id="61" action="Edit_Device_Form" backCommand="false" /><command name="Contacts" id="60" action="Edit_Contact_Form" backCommand="false" /><command name="Profile" id="59" action="Edit_Reg_Inform_Form" backCommand="false" /><command name="Inbox" id="58" action="Alert_Form" backCommand="false" /><command name="Logout" id="57" action="" backCommand="false" /></component>

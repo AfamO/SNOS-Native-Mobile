@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Emergency_Contacts_Inform_Form" cloudDestinationProperty="Emergency_Contacts_Inform_Form" scrollableY="false" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="Security Network Operation System " >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="TitleContainer" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+    <layoutConstraint value="North" />
+    <component type="Label" name="EmeTitleLab" cloudDestinationProperty="EmeTitleLab" uiid="LabelTitle" text="Government Emergency Lines" >
+    </component>
+  </component>
+  <component type="Container" name="ContentContainer" cloudDestinationProperty="ContentContainer" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="Center" />
+    <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="LabelFirst" text="" >
+    </component>
+    <component type="SpanLabel" name="FRSCSpanLab" cloudDestinationProperty="FRSCSpanLab" >
+      <custom name="text" type="java.lang.String" value="Federal Road Safety Corps &#x2013; FRSC &#x2013; 122 or 07002255372" />
+      <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+    </component>
+    <component type="SpanLabel" name="ContactSpanLab" cloudDestinationProperty="ContactSpanLab" >
+      <custom name="text" type="java.lang.String" value="Lagos Emergency Service - 767 or 112 (This covers Police, Ambulance Service, and Traffic Service)" />
+      <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+    </component>
+    <component type="SpanLabel" name="LASMASpanLab" cloudDestinationProperty="LASMASpanLab" >
+      <custom name="text" type="java.lang.String" value="Lagos State Traffic Management Authority &#x2013; LASTMA &#x2013; 08029228271(GM); 08023386921(Provost)" />
+      <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+    </component>
+    <component type="Container" name="PolicContainer" cloudDestinationProperty="PolicContainer" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="Container" name="InTitleContainer" cloudDestinationProperty="InTitleContainer" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+        <component type="Label" name="EmeLab" cloudDestinationProperty="EmeLab" uiid="LabelTitle" text="Nigeria Police Emergency Lines" >
+        </component>
+      </component>
+      <component type="Container" name="PoliceContentContainer" cloudDestinationProperty="PoliceContentContainer" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="SpanLabel" name="IGPSpanLab" cloudDestinationProperty="IGPSpanLab" >
+          <custom name="text" type="java.lang.String" value="Inspector General of Police &#x2013; IGP &#x2013; 0805966666 (SMS only)" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="FctSpanLab" cloudDestinationProperty="FctSpanLab" >
+          <custom name="text" type="java.lang.String" value=" FCT Abuja Command Emergency Numbers 07057337653 08061581938 08032003913" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="AbiaSpanLab" cloudDestinationProperty="AbiaSpanLab" >
+          <custom name="text" type="java.lang.String" value="Abia State Command Emergency Numbers 08035415408   08079210003   08079210004 08079210005" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="AdamawaSpanLab" cloudDestinationProperty="AdamawaSpanLab" >
+          <custom name="text" type="java.lang.String" value="Adamawa State Command Emergency Number 08089671313" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="AwkaSpanLab" cloudDestinationProperty="AwkaSpanLab" >
+          <custom name="text" type="java.lang.String" value="Akwa Ibom State Command Emergency Numbers 08039213071 08020913810" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="AnambraSpanLab" cloudDestinationProperty="AnambraSpanLab" >
+          <custom name="text" type="java.lang.String" value="Anambra State Command Emergency Numbers 07039194332 08024922772 08075390511 08182951257" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="BauchiSpanLab" cloudDestinationProperty="BauchiSpanLab" >
+          <custom name="text" type="java.lang.String" value="Bauchi State Command Emergency Numbers 08151849417 08127162434 08084763669 08073794920" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="BaySpanLab" cloudDestinationProperty="BaySpanLab" >
+          <custom name="text" type="java.lang.String" value="Bayelsa State Command Emergency Number 07034578208" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="BenueSpanLab" cloudDestinationProperty="BenueSpanLab" >
+          <custom name="text" type="java.lang.String" value="Benue State Command Emergency Number 08066006475 08053039936 07075390677" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="BornoSpanLab" cloudDestinationProperty="SpanLabel1" >
+          <custom name="text" type="java.lang.String" value="Borno State Command Emergency Numbers 08068075581 08036071667 08123823322" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="CrossSpanLab" cloudDestinationProperty="SpanLabel2" >
+          <custom name="text" type="java.lang.String" value="Cross River State Command Emergency Numbers 08133568456 07053355415" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="DeltaSpanLab" cloudDestinationProperty="SpanLabel3" >
+          <custom name="text" type="java.lang.String" value="Delta State Command Emergency Number 08036684974" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="EbonyiSpan" cloudDestinationProperty="SpanLabel4" >
+          <custom name="text" type="java.lang.String" value="Ebonyi State Command Emergency Number 07064515001 08125273721 08084704673" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="EdoSpanLab" cloudDestinationProperty="SpanLabel5" >
+          <custom name="text" type="java.lang.String" value="Edo State Command Emergency Number 08037646272 08077773721 08067551618" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="EkitiSpanLab" cloudDestinationProperty="SpanLabel6" >
+          <custom name="text" type="java.lang.String" value="Ekiti State Command Emergency Number 08062335577 07089310359" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="EnuguSpanLab" cloudDestinationProperty="SpanLabel7" >
+          <custom name="text" type="java.lang.String" value="Enugu State Command Emergency Number 08032003702 08075390883 08086671202" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="GombeSpanLab" cloudDestinationProperty="SpanLabel8" >
+          <custom name="text" type="java.lang.String" value="Gombe State Command Emergency Numbers 08150567771 08151855014" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="ImoSpanLab" cloudDestinationProperty="SpanLabel9" >
+          <custom name="text" type="java.lang.String" value="Imo State Command Emergency Numbers 08034773600 08037037283" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="JigawaSpanLab" cloudDestinationProperty="SpanLabel10" >
+          <custom name="text" type="java.lang.String" value="Jigawa	 State Command Emergency Numbers 08075391069 07089846285 08123821598" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="KadunaSpan" cloudDestinationProperty="KadunaSpan" >
+          <custom name="text" type="java.lang.String" value="Kaduna State Command Emergency Number 08123822284" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="KanoSpanLab" cloudDestinationProperty="KanoSpanLab" >
+          <custom name="text" type="java.lang.String" value="Kano State Command Emergency Numbers 08032419754 08123821575 064977004 064977005" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="KatsinaSpanLab" cloudDestinationProperty="KatsinaSpanLab" >
+          <custom name="text" type="java.lang.String" value="Katsina State Command Emergency Numbers 08075391255 08075391250" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="KebbiSpanLab" cloudDestinationProperty="KebbiSpanLab" >
+          <custom name="text" type="java.lang.String" value="Kebbi State Command Emergency Numbers 08038797644 08075391307" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="KogiSpanLab" cloudDestinationProperty="KogiSpanLab" >
+          <custom name="text" type="java.lang.String" value="Kogi State Command Emergency Numbers 08075391335 07038329084" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="KwaraSpanLab" cloudDestinationProperty="KwaraSpanLab" >
+          <custom name="text" type="java.lang.String" value="Kwara	State Command Emergency Numbers 07032069501 08125275046" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="LagosSpanLab" cloudDestinationProperty="LagosSpanLab" >
+          <custom name="text" type="java.lang.String" value="Lagos State Command Emergency Numbers 07055462708 08035963919" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="NasarwaSpanLab" cloudDestinationProperty="NasarwaSpanLab" >
+          <custom name="text" type="java.lang.String" value="Nasarawa State Command Emergency Numbers 08123821571 07075391560" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="NigerSpanLab" cloudDestinationProperty="NigerSpanLab" >
+          <custom name="text" type="java.lang.String" value="Niger State Command Emergency Numbers 08081777498 08127185198" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="OgunSpanLab" cloudDestinationProperty="OgunSpanLab" >
+          <custom name="text" type="java.lang.String" value="Ogun State Command Emergency Numbers 08032136765 08081770416" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="OndoSpanLab" cloudDestinationProperty="OndoSpanLab" >
+          <custom name="text" type="java.lang.String" value="Ondo State Command Emergency Numbers 07034313903 08075391808" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="OsunSpanLab" cloudDestinationProperty="OsunSpanLab" >
+          <custom name="text" type="java.lang.String" value="Osun State Command Emergency Numbers 08075872433 08039537995 08123823981" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="OyoSpanLab" cloudDestinationProperty="OyoSpanLab" >
+          <custom name="text" type="java.lang.String" value="Oyo State Command Emergency Numbers 08081768614 08150777888" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="PlateauSpanLab" cloudDestinationProperty="PlateauSpanLab" >
+          <custom name="text" type="java.lang.String" value="Plateau State Command Emergency Numbers 08126375938 08075391844 08038907662" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="RiversSpanLab" cloudDestinationProperty="RiversSpanLab" >
+          <custom name="text" type="java.lang.String" value="Rivers State Command Emergency Numbers 08032003514 08073777717" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="SokotoSpanLab" cloudDestinationProperty="SokotoSpanLab" >
+          <custom name="text" type="java.lang.String" value="Sokoto State Command Emergency Numbers 07068848035 08075391943" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="TarabaSpanLab" cloudDestinationProperty="TarabaSpanLab" >
+          <custom name="text" type="java.lang.String" value="Taraba State Command Emergency Numbers 08140089863 08073260267" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="YobeSpanLab" cloudDestinationProperty="YobeSpanLab" >
+          <custom name="text" type="java.lang.String" value="Yobe State Command Emergency Numbers 07039301585 08035067570" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+        <component type="SpanLabel" name="ZamfaraSpanLab" cloudDestinationProperty="ZamfaraSpanLab" >
+          <custom name="text" type="java.lang.String" value="Zamfara State Command Emergency Number 08106580123" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+      </component>
+    </component>
+    <component type="Container" name="SSSContainer" cloudDestinationProperty="SSSContainer" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="Container" name="InTitleContainer" cloudDestinationProperty="InTitleContainer" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="0" >
+        <component type="Label" name="SSSTitleLab" cloudDestinationProperty="SSSTitleLab" text="State Security Service Emergency Lines" >
+        </component>
+      </component>
+      <component type="Container" name="SSSContentContainer" cloudDestinationProperty="SSSContentContainer" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+        <component type="SpanLabel" name="SpanLabel" cloudDestinationProperty="SpanLabel" >
+          <custom name="text" type="java.lang.String" value="State Security Service &#x2013; SSS &#x2013; 08132222105 &#x2013; 9" />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+      </component>
+    </component>
+  </component>
+  <component type="Container" name="BottomContainer" cloudDestinationProperty="BottomContainer" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="South" />
+    <component type="Container" name="InBottomContainer" cloudDestinationProperty="InBottomContainer" layout="GridLayout" gridLayoutRows="1" gridLayoutColumns="4" >
+      <component type="Button" name="EmeHome" cloudDestinationProperty="Button" uiid="ToolbarButton" text="" icon="home_pix.png" >
+      </component>
+      <component type="Button" name="EmeAboutBut" cloudDestinationProperty="Button1" uiid="ToolbarButton" text="" icon="about_pix.jpg" >
+      </component>
+      <component type="Button" name="EmeContactBut" cloudDestinationProperty="Button2" uiid="ToolbarButton" text="" icon="contact_pix.png" >
+      </component>
+      <component type="Button" name="EmeSettingBut" cloudDestinationProperty="Button3" uiid="ToolbarButton" text="" icon="setting_pix.png" >
+      </component>
+    </component>
+  </component>
+<command name="Settings" id="49" action="" backCommand="false" /><command name="About SNOS" id="3" action="About_Form" backCommand="false" /></component>

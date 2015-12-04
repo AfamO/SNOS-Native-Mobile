@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource majorVersion="1" minorVersion="6" useXmlUI="false">
+    <ui name="About_Form" />
+    <image name="about_pix.jpg" type="multi"  />
+    <ui name="Alert_Form" />
+    <image name="backgud.png"  />
+    <image name="buttonBGPres11"  />
+    <image name="buttonBGPres21"  />
+    <image name="buttonBGPres31"  />
+    <image name="buttonBGPres41"  />
+    <image name="buttonBGPres51"  />
+    <image name="buttonBGPres61"  />
+    <image name="buttonBGPres71"  />
+    <image name="buttonBGPres81"  />
+    <image name="buttonBGPres91"  />
+    <image name="buttonBGSel11"  />
+    <image name="buttonBGSel21"  />
+    <image name="buttonBGSel31"  />
+    <image name="buttonBGSel41"  />
+    <image name="buttonBGSel51"  />
+    <image name="buttonBGSel61"  />
+    <image name="buttonBGSel71"  />
+    <image name="buttonBGSel81"  />
+    <image name="buttonBGSel91"  />
+    <image name="checkbox_checked.png1" type="multi"  />
+    <image name="checkbox_unchecked.png1" type="multi"  />
+    <image name="combo.png1" type="multi"  />
+    <image name="contact_pix.png" type="multi"  />
+    <ui name="Contacts_Form" />
+    <ui name="Device_Form" />
+    <ui name="Edit_Contact_Form" />
+    <ui name="Edit_Device_Form" />
+    <ui name="Edit_Login" />
+    <ui name="Edit_Reg_Inform_Form" />
+    <ui name="Emergency_Contacts_Inform_Form" />
+    <image name="flogin.png" type="multi"  />
+    <image name="home_Nos_title3.png" type="multi"  />
+    <image name="home_pix.png" type="multi"  />
+    <image name="home_pix2.png" type="multi"  />
+    <image name="List.sel#borderBottom:11"  />
+    <image name="List.sel#borderBottomL:11"  />
+    <image name="List.sel#borderBottomR:11"  />
+    <image name="List.sel#borderCenter:11"  />
+    <image name="List.sel#borderLeft:11"  />
+    <image name="List.sel#borderRight:11"  />
+    <image name="List.sel#borderTop:11"  />
+    <image name="List.sel#borderTopL:11"  />
+    <image name="List.sel#borderTopR:11"  />
+    <l10n name="Localization (L10N) 1">
+        <lang name="en">
+            <entry key="menu" value="Menu" />
+            <entry key="Calendar.Sunday" value="Sun" />
+            <entry key="Calendar.Tuesday" value="Tue" />
+            <entry key="Calendar.Wednesday" value="Wed" />
+            <entry key="Calendar.Thursday" value="Thu" />
+            <entry key="ok" value="OK" />
+            <entry key="Calendar.Saturday" value="Sat" />
+            <entry key="Calendar.Friday" value="Fri" />
+            <entry key="select" value="Select" />
+            <entry key="edit" value="Edit" />
+            <entry key="Calendar.Monday" value="Mon" />
+            <entry key="cancel" value="Cancel" />
+        </lang>
+    </l10n>
+    <ui name="Login_Form" />
+    <image name="nav_menu_icon_snos.png" type="multi"  />
+    <ui name="Password_Recovery" />
+    <image name="radio_checked.png1" type="multi"  />
+    <image name="radio_unchecked.png1" type="multi"  />
+    <image name="reg1.png" type="multi"  />
+    <ui name="Reg_Form" />
+    <ui name="Reset_LoginDetails" />
+    <image name="setting_pix.png" type="multi"  />
+    <image name="setup.png"  />
+    <image name="Slider.sel#borderBottom:11"  />
+    <image name="Slider.sel#borderBottomL:11"  />
+    <image name="Slider.sel#borderBottomR:11"  />
+    <image name="Slider.sel#borderCenter:11"  />
+    <image name="Slider.sel#borderLeft:11"  />
+    <image name="Slider.sel#borderRight:11"  />
+    <image name="Slider.sel#borderTop:11"  />
+    <image name="Slider.sel#borderTopL:11"  />
+    <image name="Slider.sel#borderTopR:11"  />
+    <image name="SliderFull.borderBottom:11"  />
+    <image name="SliderFull.borderBottomL:11"  />
+    <image name="SliderFull.borderBottomR:11"  />
+    <image name="SliderFull.borderCenter:11"  />
+    <image name="SliderFull.borderLeft:11"  />
+    <image name="SliderFull.borderRight:11"  />
+    <image name="SliderFull.borderTop:11"  />
+    <image name="SliderFull.borderTopL:11"  />
+    <image name="SliderFull.borderTopR:11"  />
+    <image name="slogin.png" type="multi"  />
+    <image name="snos_title.png"  />
+    <ui name="Splash_Form" />
+    <image name="TextField.sel#borderBottom:11"  />
+    <image name="TextField.sel#borderBottomL:11"  />
+    <image name="TextField.sel#borderBottomR:11"  />
+    <image name="TextField.sel#borderCenter:11"  />
+    <image name="TextField.sel#borderLeft:11"  />
+    <image name="TextField.sel#borderRight:11"  />
+    <image name="TextField.sel#borderTop:11"  />
+    <image name="TextField.sel#borderTopL:11"  />
+    <image name="TextField.sel#borderTopR:11"  />
+    <theme name="Theme 1">
+        <val key="@checkBoxCheckedImage" value="checkbox_checked.png1" />
+        <val key="@checkBoxUncheckedImage" value="checkbox_unchecked.png1" />
+        <val key="@comboImage" value="combo.png1" />
+        <val key="@commandBehavior" value="Side" />
+        <val key="@dialogButtonCommandsBool" value="true" />
+        <val key="@dialogTransitionIn" value="slide" />
+        <val key="@dialogTransitionOut" value="slide" />
+        <val key="@formTransitionOut" value="slide" />
+        <val key="@pureTouchBool" value="true" />
+        <val key="@radioSelectedImage" value="radio_checked.png1" />
+        <val key="@radioUnselectedImage" value="radio_unchecked.png1" />
+        <val key="@sideMenuImage" value="nav_menu_icon_snos.png" />
+        <val key="Button.align" value="4" />
+        <border key="Button.border" type="image" i1="buttonBGSel21" i2="buttonBGSel81" i3="buttonBGSel41" i4="buttonBGSel61" i5="buttonBGSel11" i6="buttonBGSel31" i7="buttonBGSel71" i8="buttonBGSel91" i9="buttonBGSel51" />
+        <font key="Button.font" type="system" face="0" style="1" size="0" />
+        <val key="Button.marUnit" value="2,0,2,0" />
+        <val key="Button.margin" value="4,2,0,0" />
+        <val key="Button.padding" value="10,10,12,12" />
+        <val key="Button.press#align" value="4" />
+        <border key="Button.press#border" type="image" i1="buttonBGPres81" i2="buttonBGPres21" i3="buttonBGPres61" i4="buttonBGPres41" i5="buttonBGPres91" i6="buttonBGPres71" i7="buttonBGPres31" i8="buttonBGPres11" i9="buttonBGPres51" />
+        <val key="Button.press#fgColor" value="ff" />
+        <val key="Button.press#padding" value="10,10,12,12" />
+        <val key="Button.sel#align" value="4" />
+        <border key="Button.sel#border" type="image" i1="buttonBGSel21" i2="buttonBGSel81" i3="buttonBGSel41" i4="buttonBGSel61" i5="buttonBGSel11" i6="buttonBGSel31" i7="buttonBGSel71" i8="buttonBGSel91" i9="buttonBGSel51" />
+        <val key="Button.sel#fgColor" value="ff" />
+        <val key="Button.sel#marUnit" value="2,0,2,0" />
+        <val key="Button.sel#margin" value="1,1,0,0" />
+        <val key="Button.sel#padding" value="10,10,12,12" />
+        <val key="ButtonHome.align" value="4" />
+        <val key="ButtonHome.fgColor" value="80" />
+        <font key="ButtonHome.font" type="system" face="0" style="1" size="0" />
+        <val key="ButtonMain.align" value="4" />
+        <val key="ButtonMain.fgColor" value="ffffff" />
+        <font key="ButtonMain.font" type="system" face="0" style="1" size="0" />
+        <val key="ButtonMain.marUnit" value="2,0,2,0" />
+        <val key="ButtonMain.margin" value="2,2,0,0" />
+        <val key="ButtonMenu.align" value="4" />
+        <val key="ButtonMenu.margin" value="2,2,0,0" />
+        <val key="CheckBox.transparency" value="0" />
+        <border key="ComboBox.border" type="image" i1="List.sel#borderTop:11" i2="List.sel#borderBottom:11" i3="List.sel#borderLeft:11" i4="List.sel#borderRight:11" i5="List.sel#borderTopL:11" i6="List.sel#borderTopR:11" i7="List.sel#borderBottomL:11" i8="List.sel#borderBottomR:11" i9="List.sel#borderCenter:11" />
+        <border key="ComboBox.dis#border" type="image" i1="List.sel#borderTop:11" i2="List.sel#borderBottom:11" i3="List.sel#borderLeft:11" i4="List.sel#borderRight:11" i5="List.sel#borderTopL:11" i6="List.sel#borderTopR:11" i7="List.sel#borderBottomL:11" i8="List.sel#borderBottomR:11" i9="List.sel#borderCenter:11" />
+        <val key="ComboBox.fgColor" value="0" />
+        <border key="ComboBox.sel#border" type="image" i1="List.sel#borderTop:11" i2="List.sel#borderBottom:11" i3="List.sel#borderLeft:11" i4="List.sel#borderRight:11" i5="List.sel#borderTopL:11" i6="List.sel#borderTopR:11" i7="List.sel#borderBottomL:11" i8="List.sel#borderBottomR:11" i9="List.sel#borderCenter:11" />
+        <val key="ComboBoxItem.fgColor" value="0" />
+        <val key="ComboBoxItem.sel#fgColor" value="ff" />
+        <border key="ComboBoxPopup.border" type="image" i1="List.sel#borderTop:11" i2="List.sel#borderBottom:11" i3="List.sel#borderLeft:11" i4="List.sel#borderRight:11" i5="List.sel#borderTopL:11" i6="List.sel#borderTopR:11" i7="List.sel#borderBottomL:11" i8="List.sel#borderBottomR:11" i9="List.sel#borderCenter:11" />
+        <val key="ComboBoxPopup.fgColor" value="0" />
+        <border key="ComboBoxPopup.sel#border" type="image" i1="List.sel#borderTop:11" i2="List.sel#borderBottom:11" i3="List.sel#borderLeft:11" i4="List.sel#borderRight:11" i5="List.sel#borderTopL:11" i6="List.sel#borderTopR:11" i7="List.sel#borderBottomL:11" i8="List.sel#borderBottomR:11" i9="List.sel#borderCenter:11" />
+        <val key="ComboBoxPopup.sel#fgColor" value="0" />
+        <gradient key="DialogContentPane.bgGradient" color1="13421823" color2="13421568" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="DialogContentPane.bgType" value="7" />
+        <val key="DialogContentPane.fgColor" value="80" />
+        <font key="DialogContentPane.font" type="system" face="0" style="1" size="0" />
+        <val key="DialogTitle.align" value="4" />
+        <gradient key="DialogTitle.bgGradient" color1="13421823" color2="13421568" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="DialogTitle.bgType" value="7" />
+        <val key="DialogTitle.fgColor" value="33ff" />
+        <font key="DialogTitle.font" type="system" face="0" style="1" size="0" />
+        <val key="DialogTitle.margin" value="0,0,0,0" />
+        <val key="DialogTitle.padding" value="5,5,10,10" />
+        <val key="DialogTitle.transparency" value="0" />
+        <val key="Form.bgImage" value="backgud.png" />
+        <val key="Form.bgType" value="1" />
+        <val key="Form.transparency" value="255" />
+        <val key="Label.fgColor" value="0" />
+        <font key="Label.font" type="system" face="0" style="1" size="0" />
+        <val key="Label.marUnit" value="2,0,2,0" />
+        <val key="Label.margin" value="2,2,0,0" />
+        <val key="Label.transparency" value="0" />
+        <font key="LabelFirst.font" type="system" face="0" style="1" size="0" />
+        <val key="LabelFirst.margin" value="20,5,0,0" />
+        <val key="LabelSpan.fgColor" value="ffffff" />
+        <font key="LabelSpan.font" type="system" face="0" style="1" size="0" />
+        <val key="LabelSpan.marUnit" value="0,1,0,1" />
+        <val key="LabelSpan.margin" value="0,0,3,3" />
+        <val key="LabelSpan.padUnit" value="1,1,1,1" />
+        <val key="LabelSpan.padding" value="1,1,2,2" />
+        <val key="LabelTitle.align" value="4" />
+        <val key="LabelTitle.fgColor" value="342d7e" />
+        <font key="LabelTitle.font" type="system" face="0" style="1" size="0" />
+        <border key="List.border" type="image" i1="List.sel#borderTop:11" i2="List.sel#borderBottom:11" i3="List.sel#borderLeft:11" i4="List.sel#borderRight:11" i5="List.sel#borderTopL:11" i6="List.sel#borderTopR:11" i7="List.sel#borderBottomL:11" i8="List.sel#borderBottomR:11" i9="List.sel#borderCenter:11" />
+        <border key="List.dis#border" type="image" i1="List.sel#borderTop:11" i2="List.sel#borderBottom:11" i3="List.sel#borderLeft:11" i4="List.sel#borderRight:11" i5="List.sel#borderTopL:11" i6="List.sel#borderTopR:11" i7="List.sel#borderBottomL:11" i8="List.sel#borderBottomR:11" i9="List.sel#borderCenter:11" />
+        <val key="List.fgColor" value="0" />
+        <val key="List.margin" value="3,3,3,3" />
+        <val key="List.padding" value="5,5,5,5" />
+        <border key="List.sel#border" type="image" i1="List.sel#borderTop:11" i2="List.sel#borderBottom:11" i3="List.sel#borderLeft:11" i4="List.sel#borderRight:11" i5="List.sel#borderTopL:11" i6="List.sel#borderTopR:11" i7="List.sel#borderBottomL:11" i8="List.sel#borderBottomR:11" i9="List.sel#borderCenter:11" />
+        <val key="List.sel#fgColor" value="0" />
+        <val key="List.sel#margin" value="3,3,3,3" />
+        <val key="List.sel#padding" value="5,5,5,5" />
+        <val key="ListRenderer.fgColor" value="0" />
+        <val key="ListRenderer.sel#fgColor" value="ff" />
+        <gradient key="Menu.bgGradient" color1="6711039" color2="16724838" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="Menu.bgType" value="7" />
+        <val key="Menu.fgColor" value="ffcc00" />
+        <font key="Menu.font" type="system" face="0" style="1" size="0" />
+        <val key="RadioButton.transparency" value="0" />
+        <border key="Slider.border" type="image" i1="Slider.sel#borderTop:11" i2="Slider.sel#borderBottom:11" i3="Slider.sel#borderLeft:11" i4="Slider.sel#borderRight:11" i5="Slider.sel#borderTopL:11" i6="Slider.sel#borderTopR:11" i7="Slider.sel#borderBottomL:11" i8="Slider.sel#borderBottomR:11" i9="Slider.sel#borderCenter:11" />
+        <border key="Slider.sel#border" type="image" i1="Slider.sel#borderTop:11" i2="Slider.sel#borderBottom:11" i3="Slider.sel#borderLeft:11" i4="Slider.sel#borderRight:11" i5="Slider.sel#borderTopL:11" i6="Slider.sel#borderTopR:11" i7="Slider.sel#borderBottomL:11" i8="Slider.sel#borderBottomR:11" i9="Slider.sel#borderCenter:11" />
+        <border key="SliderFull.border" type="image" i1="SliderFull.borderTop:11" i2="SliderFull.borderBottom:11" i3="SliderFull.borderLeft:11" i4="SliderFull.borderRight:11" i5="SliderFull.borderTopL:11" i6="SliderFull.borderTopR:11" i7="SliderFull.borderBottomL:11" i8="SliderFull.borderBottomR:11" i9="SliderFull.borderCenter:11" />
+        <border key="SliderFull.sel#border" type="image" i1="SliderFull.borderTop:11" i2="SliderFull.borderBottom:11" i3="SliderFull.borderLeft:11" i4="SliderFull.borderRight:11" i5="SliderFull.borderTopL:11" i6="SliderFull.borderTopR:11" i7="SliderFull.borderBottomL:11" i8="SliderFull.borderBottomR:11" i9="SliderFull.borderCenter:11" />
+        <val key="SoftButton.align" value="1" />
+        <val key="SoftButton.bgColor" value="ff" />
+        <val key="SoftButton.fgColor" value="ffffff" />
+        <font key="SoftButton.font" type="system" face="0" style="1" size="0" />
+        <val key="SoftButton.padding" value="5,5,10,10" />
+        <border key="TextArea.border" type="image" i1="TextField.sel#borderTop:11" i2="TextField.sel#borderBottom:11" i3="TextField.sel#borderLeft:11" i4="TextField.sel#borderRight:11" i5="TextField.sel#borderTopL:11" i6="TextField.sel#borderTopR:11" i7="TextField.sel#borderBottomL:11" i8="TextField.sel#borderBottomR:11" i9="TextField.sel#borderCenter:11" />
+        <border key="TextArea.dis#border" type="image" i1="TextField.sel#borderTop:11" i2="TextField.sel#borderBottom:11" i3="TextField.sel#borderLeft:11" i4="TextField.sel#borderRight:11" i5="TextField.sel#borderTopL:11" i6="TextField.sel#borderTopR:11" i7="TextField.sel#borderBottomL:11" i8="TextField.sel#borderBottomR:11" i9="TextField.sel#borderCenter:11" />
+        <val key="TextArea.fgColor" value="0" />
+        <val key="TextArea.padding" value="4,4,6,6" />
+        <border key="TextArea.sel#border" type="image" i1="TextField.sel#borderTop:11" i2="TextField.sel#borderBottom:11" i3="TextField.sel#borderLeft:11" i4="TextField.sel#borderRight:11" i5="TextField.sel#borderTopL:11" i6="TextField.sel#borderTopR:11" i7="TextField.sel#borderBottomL:11" i8="TextField.sel#borderBottomR:11" i9="TextField.sel#borderCenter:11" />
+        <val key="TextArea.sel#fgColor" value="ff" />
+        <val key="TextArea.sel#padding" value="4,4,6,6" />
+        <border key="TextField.border" type="image" i1="TextField.sel#borderTop:11" i2="TextField.sel#borderBottom:11" i3="TextField.sel#borderLeft:11" i4="TextField.sel#borderRight:11" i5="TextField.sel#borderTopL:11" i6="TextField.sel#borderTopR:11" i7="TextField.sel#borderBottomL:11" i8="TextField.sel#borderBottomR:11" i9="TextField.sel#borderCenter:11" />
+        <border key="TextField.dis#border" type="image" i1="TextField.sel#borderTop:11" i2="TextField.sel#borderBottom:11" i3="TextField.sel#borderLeft:11" i4="TextField.sel#borderRight:11" i5="TextField.sel#borderTopL:11" i6="TextField.sel#borderTopR:11" i7="TextField.sel#borderBottomL:11" i8="TextField.sel#borderBottomR:11" i9="TextField.sel#borderCenter:11" />
+        <val key="TextField.fgColor" value="0" />
+        <val key="TextField.padding" value="4,4,6,6" />
+        <border key="TextField.sel#border" type="image" i1="TextField.sel#borderTop:11" i2="TextField.sel#borderBottom:11" i3="TextField.sel#borderLeft:11" i4="TextField.sel#borderRight:11" i5="TextField.sel#borderTopL:11" i6="TextField.sel#borderTopR:11" i7="TextField.sel#borderBottomL:11" i8="TextField.sel#borderBottomR:11" i9="TextField.sel#borderCenter:11" />
+        <val key="TextField.sel#fgColor" value="ff" />
+        <val key="TextField.sel#padding" value="4,4,6,6" />
+        <val key="Title.align" value="4" />
+        <gradient key="Title.bgGradient" color1="0" color2="0" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="Title.bgType" value="0" />
+        <val key="Title.fgColor" value="ffffff" />
+        <font key="Title.font" type="system" face="0" style="1" size="0" />
+        <val key="Title.padUnit" value="2,0,2,0" />
+        <val key="Title.padding" value="2,2,0,0" />
+        <val key="Title.transparency" value="0" />
+        <val key="TitleArea.align" value="4" />
+        <val key="TitleArea.bgImage" value="snos_title.png" />
+        <val key="TitleArea.bgType" value="1" />
+        <val key="TitleArea.fgColor" value="ffffff" />
+        <font key="TitleArea.font" type="system" face="0" style="1" size="0" />
+        <val key="TitleArea.margin" value="0,0,0,0" />
+        <val key="TitleArea.padding" value="0,0,0,0" />
+        <val key="TitleArea.transparency" value="0" />
+        <val key="ToolbarButton.align" value="4" />
+        <border key="ToolbarButton.border" type="imageH" i1="snos_title.png" i2="snos_title.png" i3="snos_title.png" />
+        <val key="ToolbarButton.fgColor" value="ffffff" />
+        <val key="ToolbarButton.margin" value="0,0,0,0" />
+        <val key="TouchCommand.align" value="4" />
+        <gradient key="TouchCommand.bgGradient" color1="6711039" color2="16724838" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="TouchCommand.bgType" value="7" />
+        <val key="TouchCommand.fgColor" value="ffcc00" />
+        <font key="TouchCommand.font" type="system" face="0" style="1" size="0" />
+        <val key="TouchCommand.padding" value="10,10,12,12" />
+        <val key="TouchCommand.press#align" value="4" />
+        <border key="TouchCommand.press#border" type="image" i1="buttonBGPres81" i2="buttonBGPres21" i3="buttonBGPres61" i4="buttonBGPres41" i5="buttonBGPres91" i6="buttonBGPres71" i7="buttonBGPres31" i8="buttonBGPres11" i9="buttonBGPres51" />
+        <val key="TouchCommand.press#fgColor" value="ff" />
+        <val key="TouchCommand.press#padding" value="10,10,12,12" />
+        <val key="TouchCommand.sel#align" value="4" />
+        <border key="TouchCommand.sel#border" type="image" i1="buttonBGSel21" i2="buttonBGSel81" i3="buttonBGSel41" i4="buttonBGSel61" i5="buttonBGSel11" i6="buttonBGSel31" i7="buttonBGSel71" i8="buttonBGSel91" i9="buttonBGSel51" />
+        <val key="TouchCommand.sel#fgColor" value="ff" />
+        <val key="TouchCommand.sel#padding" value="10,10,12,12" />
+        <val key="fgColor" value="0" />
+        <val key="sel#bgColor" value="61a4" />
+        <val key="sel#bgImage" value="setup.png" />
+        <val key="sel#bgType" value="1" />
+        <val key="sel#fgColor" value="ffffff" />
+        <val key="transparency" value="0" />
+    </theme>
+    <image name="title_nos_pix6.png" type="multi"  />
+    <ui name="VerifyToken" />
+</resource>

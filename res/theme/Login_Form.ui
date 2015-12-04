@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Login_Form" cloudDestinationProperty="LoginForm" scrollableX="false" scrollableY="false" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="Security Network Operation System" >
+  <component type="Container" name="BottomContainer" cloudDestinationProperty="BottomContainer" uiid="Container" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="South" />
+    <component type="Container" name="InBottomContainer" cloudDestinationProperty="InBottomContainer" layout="GridLayout" gridLayoutRows="1" gridLayoutColumns="4" >
+      <component type="Button" name="HomeBut" cloudDestinationProperty="Button" uiid="ToolbarButton" flatten="false" text="" icon="home_pix.png" >
+      </component>
+      <component type="Button" name="AboutBut" cloudDestinationProperty="AboutBut" uiid="ToolbarButton" flatten="false" text="" icon="about_pix.jpg" >
+      </component>
+      <component type="Button" name="EmeBut" cloudDestinationProperty="EmeBut" uiid="ToolbarButton" flatten="false" text="" icon="contact_pix.png" >
+      </component>
+      <component type="Button" name="SetBut" cloudDestinationProperty="SetBut" uiid="ToolbarButton" flatten="false" text="" icon="setting_pix.png" >
+      </component>
+    </component>
+  </component>
+  <component type="Container" name="TitleContainer" cloudDestinationProperty="TitleContainer" scrollableY="true" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="0" >
+    <layoutConstraint value="North" />
+    <component type="Label" name="PixLab" cloudDestinationProperty="Label1" text="" icon="title_nos_pix6.png" >
+    </component>
+  </component>
+  <component type="Container" name="ContentContainer" cloudDestinationProperty="Container1" scrollableY="true" layout="BorderLayout" borderLayoutAbsoluteCenter="true" >
+    <layoutConstraint value="Center" />
+    <component type="Container" name="InnerContentContainer" cloudDestinationProperty="StatusContainer" layout="GridLayout" gridLayoutRows="5" gridLayoutColumns="1" >
+      <layoutConstraint value="Center" />
+      <component type="Container" name="InTitleContainer" cloudDestinationProperty="InTitleContainer" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+        <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="LabelTitle" text="LOGIN TO YOUR SNOS ACCOUNT" >
+        </component>
+      </component>
+      <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Label" name="UserLab" cloudDestinationProperty="UserLab" uiid="LabelFirst" text="Username" >
+        </component>
+        <component type="TextField" name="UserTF" cloudBoundProperty="text" cloudDestinationProperty="UserTF" text="" constraint="1" hint="Email e.g teledom@gmail.com" >
+        </component>
+      </component>
+      <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Label" name="PassLab" cloudDestinationProperty="PassLab" text="Password" >
+        </component>
+        <component type="TextField" name="PassTF" cloudBoundProperty="text" cloudDestinationProperty="PassTF" text="" constraint="65536" hint="Password" >
+        </component>
+      </component>
+      <component type="Container" name="Container2" cloudDestinationProperty="Container2" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Label" name="SapLab" cloudDestinationProperty="SapLab" uiid="LabelFirst" text="" >
+        </component>
+        <component type="Button" name="LoginBut" cloudDestinationProperty="LoginBut" text="Login" >
+        </component>
+      </component>
+      <component type="Container" name="Container3" cloudDestinationProperty="Container3" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Button" name="SignedUpBut" cloudDestinationProperty="RegBut" uiid="ButtonMain" text="Not Signed-up ? Register" >
+        </component>
+        <component type="Button" name="RecoverBut" cloudDestinationProperty="RecoverBut" uiid="ButtonMain" text="Forget Password ? Recover" >
+        </component>
+      </component>
+    </component>
+  </component>
+<command name="Exit" id="95" action="$Exit" backCommand="false" /><command name="Emergency Contacts" id="94" action="Emergency_Contacts_Inform_Form" backCommand="false" /><command name="About SNOS" id="93" action="About_Form" backCommand="false" /><command name="Home" id="92" action="Splash_Form" backCommand="false" /></component>

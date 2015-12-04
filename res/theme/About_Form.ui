@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="About_Form" cloudDestinationProperty="About_Form" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="Security Network Operation System " >
+  <component type="Container" name="TitleContainer" cloudDestinationProperty="TitleContainer" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+    <layoutConstraint value="North" />
+    <component type="Label" name="AboutLab" cloudDestinationProperty="AboutLab" uiid="LabelTitle" text="ABOUT SNOS" >
+    </component>
+  </component>
+  <component type="Container" name="ContentContainer" cloudDestinationProperty="ContentContainer" scrollableY="true" >
+    <layoutConstraint value="Center" />
+    <component type="SpanLabel" name="AboutSpanLab" cloudDestinationProperty="AboutSpanLab" >
+      <custom name="text" type="java.lang.String" value="SNOS...real-time monitoring and surveillance, with SMS and e-mail alerts, of your treasures wherever they may be located from wherever you are in Nigeria and in the world, whenever you want you may need a second or third person or your security company or guard or the nearest Police post/station/patrol team or whoever you designate to also receive the alerts for rapid response intervention. These designated persons must necessarily be physically close to your Location of Treasure (LoT) for the purpose of rapid response intervention. Your LoT may be your home where you live or your country/village home where you visit infrequently or office or factory or bank or warehouse or event centre/place or project/construction site or plot of land or restaurant or shop.  It can be your Church or Mosque compound. Your Object of Treasure (OoT) can be your car or truck or yacht or ship or aircraft. In your home or office building, your Point of Treasure (PoT) may be your cash/gold/diamond/certificates/landed property document vault or a particular room or garage or main gate or parking lot or sitting room or kitchen or corridor or veranda or balcony or lobby or particular doors or windows or cupboards or lockers or drawers or shelves or   any of the 4 segments of your home/ building perimeter fence, etc You can designate wherever you want as your point of treasure! Had I known or had we known is always too late and it has cost implications: the cost may be financial or material or tragic loss of human life or lives. &#x2026;If you think providing security is too expensive, please try insecurity&#x2026; " />
+      <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+    </component>
+    <component type="Container" name="InContentContainer" cloudDestinationProperty="InContentContainer" scrollableY="false" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="Container" name="SNOCTitle" cloudDestinationProperty="SNOCTitle" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="0" >
+        <component type="SpanLabel" name="SNOCSpanLab" cloudDestinationProperty="SNOCSpanLab" >
+          <custom name="text" type="java.lang.String" value="Security Network Operation Centre (SNOC)" />
+          <custom name="textUiid" type="java.lang.String" value="LabelTitle" />
+        </component>
+      </component>
+      <component type="Container" name="SNOCContainer" cloudDestinationProperty="SNOCContainer" >
+        <component type="SpanLabel" name="SNOCSpanLab" cloudDestinationProperty="SNOCSpanLab" >
+          <custom name="text" type="java.lang.String" value="The Security Network Operation Centre (SNOC) is the nerve centre of the network of transmitted outputs of  GSM and CDMA SIM card-enabled SNOS CPEs modules that are installed in subscriber premises (homes, offices, warehouses, banks, churches, mosques, factories, cars, trucks, schools, colleges, polytechnics, universities, etc, ). The national seamless telecom network (GSM/CDMA/IP) provides transport between the SIM card-enabled SNOS CPEs and SNOC. A SNOC, equipped with comprehensive data centre facilities, broadband Internet connectivity and GSM interface links receives SNOS CPE outputs and translates same to the web space for automatic online updating of SNOS subscriber database and mail accounts. Depending on subscribers or group of subscribers, SNOC comes in a hierarchy of Master SNOC, Mini SNOC and Micro SNOC. A Public Master SNOC is a national or global data centre for a large number of SNOS CPE outputs from individual subscribers. A Private Master SNOC on the other hand is National or global data centre of SNOS CPE outputs of big corporate organizations having a large number and spread of branches with each branch having many SNOS CPEs. This is SNOC in the cloud. A Public Mini SNOC is hub to the outputs of a reduced number and spread of SNOS CPEs of members of the public. A Private Mini SNOC manages a reduced number of SNOS CPE outputs for a corporate organization. A Public Micro SNOC and a Private Micro SNOC manage further reduced number and local area outputs of SNOS CPEs for the public and private organizations respectively." />
+          <custom name="textUiid" type="java.lang.String" value="LabelSpan" />
+        </component>
+      </component>
+    </component>
+  </component>
+  <component type="Container" name="BottomContainer" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="South" />
+    <component type="Container" name="InBottomContainer" cloudDestinationProperty="InBottomContainer" layout="GridLayout" gridLayoutRows="1" gridLayoutColumns="4" >
+      <component type="Button" name="AboutHomeBut" cloudDestinationProperty="AboutHomeBut" uiid="ToolbarButton" flatten="false" text="" icon="home_pix.png" >
+      </component>
+      <component type="Button" name="AboutBut" cloudDestinationProperty="AboutBut" uiid="ToolbarButton" flatten="false" text="" icon="about_pix.jpg" >
+      </component>
+      <component type="Button" name="AboutContactsBut" cloudDestinationProperty="AboutContactsBut" uiid="ToolbarButton" flatten="false" text="" icon="contact_pix.png" >
+      </component>
+      <component type="Button" name="AboutSettingBut" cloudDestinationProperty="AboutSettingBut" uiid="ToolbarButton" flatten="false" text="" icon="setting_pix.png" >
+      </component>
+    </component>
+  </component>
+<command name="Settings" id="56" action="" backCommand="false" /><command name="Emergecy Contacts" id="40" action="Emergency_Contacts_Inform_Form" backCommand="false" /></component>

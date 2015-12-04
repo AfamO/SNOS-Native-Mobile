@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Edit_Device_Form" cloudDestinationProperty="Edit_Device_Form" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="Security Network Operation System " >
+  <component type="Container" name="EditTitleContainer" cloudDestinationProperty="TitleContainer" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="North" />
+    <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="LabelTitle" text="" icon="title_nos_pix6.png" >
+    </component>
+    <component type="Container" name="InTitleContainer" cloudDestinationProperty="InTitleContainer" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+      <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="LabelTitle" text="Change Device Information" >
+      </component>
+    </component>
+  </component>
+  <component type="Container" name="ContentPan" cloudDestinationProperty="ContentPan" nextFocusDown="ContentPan" nextFocusLeft="ContentPan" focusable="false" rtl="true" scrollableY="true" layout="BorderLayout" borderLayoutAbsoluteCenter="true" >
+    <layoutConstraint value="Center" />
+    <component type="Container" name="InnerContentContainer" cloudDestinationProperty="InnerContentContainer" layout="BoxLayout" boxLayoutAxis="Y" >
+      <layoutConstraint value="Center" />
+      <component type="Container" name="StatusContainer" cloudDestinationProperty="Container1" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+        <component type="Label" name="StatusLab" cloudDestinationProperty="Label1" text="" >
+        </component>
+      </component>
+      <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Label" name="NameLab" cloudDestinationProperty="NameLab" uiid="LabelFirst" text="Device Name" >
+        </component>
+        <component type="TextField" name="DevNameTF" cloudBoundProperty="text" cloudDestinationProperty="TextField" text="" hint="Device Name" >
+        </component>
+      </component>
+      <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Label" name="DesLab" cloudDestinationProperty="Label1" text="Description" >
+        </component>
+        <component type="TextArea" name="DesTA" cloudBoundProperty="text" cloudDestinationProperty="DesTA" text="" hint="Description" >
+        </component>
+      </component>
+      <component type="Container" name="Container2" cloudDestinationProperty="Container2" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Label" name="AddLab" cloudDestinationProperty="Label2" text="Address" >
+        </component>
+        <component type="TextArea" name="AddTA2" cloudBoundProperty="text" cloudDestinationProperty="AddTA" text="" hint="Address" >
+        </component>
+      </component>
+      <component type="Container" name="Container3" cloudDestinationProperty="Container3" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Label" name="BuildTypeLab" cloudDestinationProperty="BuildTypeLab" text="Property Type " >
+        </component>
+        <component type="TextField" name="BuildTypeTF" cloudBoundProperty="text" cloudDestinationProperty="BuildTypeTF" text="" hint="Building Type If any" >
+        </component>
+      </component>
+      <component type="Container" name="Container4" cloudDestinationProperty="Container4" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Label" name="LocLab" cloudDestinationProperty="LocLab" text="Location(of Property)" >
+        </component>
+        <component type="TextField" name="LocTF" cloudBoundProperty="text" cloudDestinationProperty="LocTF" text="" hint="Location of property" >
+        </component>
+      </component>
+      <component type="Container" name="Container5" cloudDestinationProperty="Container5" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Label" name="StaLab" cloudDestinationProperty="StaLab" text="State" >
+        </component>
+        <component type="TextField" name="StateTF" cloudBoundProperty="text" cloudDestinationProperty="StateTF" text="" hint="STATE" >
+        </component>
+      </component>
+      <component type="Container" name="Container6" cloudDestinationProperty="Container6" >
+        <component type="Label" name="LgaLab" cloudDestinationProperty="LgaLab" text="LGA" >
+        </component>
+        <component type="TextField" name="LgaTF" cloudBoundProperty="text" cloudDestinationProperty="LgaTF" text="" hint="LGA" >
+        </component>
+      </component>
+      <component type="Container" name="NextContainer" cloudDestinationProperty="Container" layout="TableLayout" tableLayoutRows="1" tableLayoutColumns="2" >
+        <component type="Button" name="PreBut" cloudDestinationProperty="PreBut" uiid="ButtonMain" enabled="true" text="&lt;&lt;Previous" >
+          <layoutConstraint row="-1" column="-1" height="-1" width="50" align="4" spanHorizontal="1" valign="-1" spanVertical="1" />
+        </component>
+        <component type="Button" name="NextBut" cloudDestinationProperty="NextBut" uiid="ButtonMain" enabled="true" text="Next &gt;&gt;" >
+          <layoutConstraint row="-1" column="-1" height="-1" width="50" align="4" spanHorizontal="1" valign="-1" spanVertical="1" />
+        </component>
+      </component>
+      <component type="Container" name="Container7" cloudDestinationProperty="Container7" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Button" name="SaveButt" cloudDestinationProperty="SaveButt" uiid="ButtonMain" text="Save Changes" >
+        </component>
+      </component>
+    </component>
+  </component>
+  <component type="Container" name="BottomContainer" cloudDestinationProperty="BottomContainer" uiid="Container" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="South" />
+    <component type="Container" name="InBottomContainer" cloudDestinationProperty="InBottomContainer" layout="GridLayout" gridLayoutRows="1" gridLayoutColumns="4" >
+      <component type="Button" name="PSHomeBut" cloudDestinationProperty="Button" uiid="ToolbarButton" flatten="false" text="" icon="home_pix.png" >
+      </component>
+      <component type="Button" name="PSAboutBut" cloudDestinationProperty="AboutBut" uiid="ToolbarButton" flatten="false" text="" icon="about_pix.jpg" >
+      </component>
+      <component type="Button" name="PSEmeBut" cloudDestinationProperty="EmeBut" uiid="ToolbarButton" flatten="false" text="" icon="contact_pix.png" >
+      </component>
+      <component type="Button" name="PSSetBut" cloudDestinationProperty="SetBut" uiid="ToolbarButton" flatten="false" text="" icon="setting_pix.png" >
+      </component>
+    </component>
+  </component>
+<command name="Logout" id="74" action="" backCommand="false" /><command name="Inbox" id="73" action="Alert_Form" backCommand="false" /><command name="Contacts" id="72" action="Edit_Contact_Form" backCommand="false" /><command name="Profile" id="71" action="Edit_Reg_Inform_Form" backCommand="false" /><command name="Change Login Details" id="75" action="Edit_Login" backCommand="false" /><command name="Settings" id="50" action="" backCommand="false" /><command name="About SNOS" id="46" action="About_Form" backCommand="false" /><command name="Emergency Contacts" id="45" action="Emergency_Contacts_Inform_Form" backCommand="false" /></component>

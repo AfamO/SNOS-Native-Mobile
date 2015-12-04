@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="GUI 1" cloudDestinationProperty="GUI 1" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" >
+  </component>
+  <component type="Picker" name="Picker" cloudDestinationProperty="Picker" text="1/20/15" >
+  </component>
+  <component type="InfiniteProgress" name="InfiniteProgress" cloudDestinationProperty="InfiniteProgress" >
+  </component>
+  <component type="DateSpinner" name="DateSpinner" cloudDestinationProperty="DateSpinner" >
+  </component>
+  <component type="MapComponent" name="MapComponent" cloudDestinationProperty="MapComponent" >
+  </component>
+  <component type="FileTree" name="FileTree" cloudDestinationProperty="FileTree" >
+  </component>
+</component>
