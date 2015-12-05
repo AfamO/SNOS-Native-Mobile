@@ -13,6 +13,10 @@ import generated.StateMachineBase;
 import com.codename1.ui.*; 
 import com.codename1.ui.events.*;
 import com.codename1.ui.util.Resources;
+import com.pubnub.api.Callback;
+import com.pubnub.api.Pubnub;
+import com.pubnub.api.PubnubException;
+import org.json.*;
 import com.teledom.snosapp.JSONConnectionObject;
 import static com.teledom.snosapp.JSONConnectionObject.IsNodataConnected;
 import com.teledom.snosapp.ListMVC;
@@ -68,6 +72,7 @@ public class StateMachine extends StateMachineBase
     public static String userid,pass="";
     public static String url="";
     static ListMVC lstmvc;
+    Pubnub pb;
     static Component lgacompfinder;
     public  static Label status;
     public static TextField emailtxtfield,gsmtxtfield;
@@ -446,10 +451,13 @@ public class StateMachine extends StateMachineBase
                      {
                          //populate the form with the sms alerts and display the form to the user
                          jscnb.getAndDisplayLocalSMS(0, 10, "");
+                         //listen to PubNub Subscribed messages
+                         listenToMessages();
                      }
                      Log.p("The form type after="+jscnb.getFormType());
                  }
                 });
+                
                 //Is there data connection?
                 if(IsNodataConnected)
                 {
@@ -462,6 +470,32 @@ public class StateMachine extends StateMachineBase
                 }
          }
      }
+     /*
+      * Do PubNub Listening here
+      */
+     private void listenToMessages() {
+     
+         try {
+        pb = new Pubnub("pub-c-19f34098-ac37-4a87-a2f3-2e00cf65b650", "sub-c-5bda3e3a-9435-11e5-bcd8-0619f8945a4f");
+        pb.subscribe("Channel-SNOS1", new Callback() {
+            @Override
+            public void successCallback(String channel, final Object message, String timetoken) {
+                    Display.getInstance().callSerially(new Runnable()  {
+                        public void run(){
+                            respond(message.toString());
+                        }
+                    });
+            }
+        });
+    } catch(PubnubException err) {
+        Log.e(err);
+        Dialog.show("Error", "There was a communication error: " + err, "OK", null);
+    }
+    }
+    private void respond(String response)
+    {
+        Dialog.show("PubNub Security Alert", response, "OK", null);
+    }
      public Form getAlertForm()
      {
          return showForm("Alert_Form",null);
